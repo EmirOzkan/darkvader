@@ -1,0 +1,133 @@
+
+.loader{
+    position: fixed;
+	display: grid;
+	place-content: center;
+    width: 100%;
+	top: 0;
+    height: 100vh;
+    background: #fff;
+    z-index: 999999;
+
+}
+.loader img{
+	width: 600px;
+	height: 600px;
+}
+.wrapper{
+	display: none;
+}
+body{
+	justify-content: center;
+	align-items: center;
+	/* background-image: url(./galáxia-galaxy.gif); */
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	backdrop-filter: blur(100%);
+}
+
+#background-video {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+  }
+h1{
+	font-family: courier new,monospace;
+	font-style: italic;
+	color:#fff;
+	font-weight: lighter;
+	font-size: 20px;
+}
+.title{
+	font-size: 35px;
+	text-align: center;
+	animation:blink 4s infinite ease;
+	margin-top: 20px;
+}
+@keyframes blink{
+	0%{
+		color:#fff;
+		
+	}
+	20%{
+		color:hsl(318, 77%, 49%);
+		
+	}
+	40%{
+		color:red;
+	}
+	60%{
+		color: #1100ff;
+	}
+	80%{
+		color: #c8ff00;
+	}
+	100%{
+		color: aqua;
+	}
+}
+
+.content{
+	
+	display: none;
+	
+}
+.imgbox{
+	margin-top: 100px;
+}
+.imgbox img{
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+}
+
+.weather{
+	color: #0b86f1;
+	
+}
+.weather .temp{
+	text-align: center;
+	padding: 10px;
+	
+}
+.weather .percentage{
+	font-size: large;
+}
+#text{
+	font-size: 23px;
+}
+
+#Time{
+	font-size: 30px;
+	padding: 0px 5px 0px 5px;
+	color: #0b86f1;
+	font-family: 'orbitron',sans-serif;
+	margin-top: 100px;
+	font-weight: lighter;
+/*	border: 2px solid rgb(69, 147, 221);
+	background: linear-gradient(135deg, #14ffe7c5, #ffeb3bca, #ff00e1d0); */
+}
+blockquote{
+	height: 100px;
+	font-size: large;
+	opacity: 0.6;
+}
+
+@media only screen and (max-width : 992px){
+	blockquote{
+		height: 300px;
+	}
+	html{
+		scroll-behavior: smooth;
+	}
+        body{
+                background-color:#4d4d4d;
+ }
+}
