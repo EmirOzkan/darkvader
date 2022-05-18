@@ -104,9 +104,11 @@
   readOutLoud(transcript);
  };
 
- btn.addEventListener('click', () => {
-  recognition.start();
- });
+//  btn.addEventListener('click', () => {
+//   recognition.start();
+//  });
+
+recognition.start();
 
  function readOutLoud(message){
   const speech = new SpeechSynthesisUtterance();
