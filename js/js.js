@@ -11,7 +11,7 @@
  const hello = ['Hello sir nice to meet you, i am DarkVader. How can i help you my friend']
  const greetingsnotgood = ['Why not sir. What happend, i was just so happy to see you'];
 
- const intro = ['Hey,I am Jarvis re-built for your convenience. what can i do for you sir '];
+ const intro = ['Hey,I am DarkVader artificial intellegence for your convenience. what can i do for you sir '];
  const owner = "I am designed and created by Emir Ozkan who is the best developer ever and an intelligent person who loves to write crazy code. He loves me and that`s why he made me.";
  
  //berichten
